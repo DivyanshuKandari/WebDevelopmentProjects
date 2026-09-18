@@ -1,3 +1,31 @@
 body{
-    background-color: rgb(37, 192, 231);
+    background-color: rgb(0, 0, 0);
+}
+
+.Heading{
+    color:aquamarine;
+}
+
+.MainHeading{
+    color: rgb(4, 57, 248);
+}
+
+.Leetcode{
+    color: yellow;
+}
+.ChatGPT{
+    color: antiquewhite;
+}
+.Youtube{
+    color: red;
+}
+
+.Google{
+    color: rgb(13, 225, 77);
+}
+.Claude{
+    color: orange;
+}
+.Null{
+    color: white;
 }
