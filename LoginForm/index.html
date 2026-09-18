@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>FFMIC Registration</h1>
+    <form action="post">
+        <div>
+            <label for="IGN">IGN: </label>
+            <input type="text" name="IGN" id="IGN" placeholder="Enter Your In Game Name" autofocus >
+        </div><br>
+        <div>
+            <label for="UID">UID: </label>
+            <input type="number" name="UID" id="UID" placeholder="Enter Your UID">
+        </div>
+        <br>
+        <div>
+            <label for="pasword">Pass:</label>
+            <input type="password" name="password" id="password" placeholder="Enter password">
+        </div>
+
+        <div><br>
+            <label for="Experience">Experience:</label>
+            <input type="radio" name="Experience" id="Noob">
+            <label for="Noob">Noob</label>
+            <input type="radio" name="Experience" id="Veteran">
+            <label for="Veteran">Veteran</label>
+            <input type="radio" name="Experience" id="Pro">
+            <label for="Pro">Pro</label>
+        </div><br>
+        <div>
+            <label for="Server">Server: </label>
+    <select name="Server" id="Server">
+        <option value="India">India</option>
+        <option value="Nepal-Bangladesh">Nep-Bd</option>
+        <option value="Brazil">Brazil</option>
+        <option value="Mena">Mena</option>
+    </select>
+</div><br>
+        <div>
+            <label for="tc">Agree to terms and conditions</label>
+            <input type="checkbox" name="tc" id="tc">
+        </div><br>
+
+            <div><textarea name="Feedback" id="Feedback"placeholder="Enter you Feeback...."></textarea></div>
+
+    </form>
+
+
+</body>
+
+</html>
